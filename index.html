@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desafio - FlexBox</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+</style>
+</head>
+<body>
+    <div class="total">
+        <nav class="top-nav">
+            <div class="menu">
+                <a href="#"><img src="assets/images/menu.png" alt="Menu" id="menu-img"></a>
+                <a href="#"><img src="../desafio-flexbox/assets/images/youtube-logo.png" alt="Youtube" class="logo-youtube"></a>
+            </div>
+            <form method="post" class="search">
+                <input type="text" id="search-content" name="search-content">
+                <a href="#"><img src="assets/images/search.png" alt="Pesquisar"></a>
+            </form>
+            <div class="nav-tools">
+                <div class="upload">
+                    <a href="#"><img src="assets/images/video.png" alt="Modo criador"></a>
+                </div>
+                <div class="notifications">
+                    <a href="#"><img src="assets/images/bell.png" alt="Ativar notificações"></a>
+                </div>
+                <div class="profile">
+                    <a href="#"><img src="assets/images/Avatar.png" alt="Você"></a>
+                </div>
+            </div>
+        </nav>
+        <div class="screen">
+            <main class="main">
+                <div class="video-screen">
+                    <a href="#"><img src="assets/images/screen.png" alt="" class="video"></a>
+                </div>
+                <h1>
+                    Semana Front-end | Dia 01: Construindo uma Landing Page no Mundo Invertido com HTML e CSS
+                </h1>
+                <div class="options">
+                    <div class="channel">
+                        <a href="#"><img src="assets/images/Channel Avatar.png" alt="Dio" class="channel-logo"></a>
+                        <div class="channel-info">
+                            <a href="#">DIO</a>
+                            <p>81,3 mil inscritos</p>
+                        </div>
+                    </div>
+                    <button class="subscribe-button"><a href="#">INSCREVA-SE</a></button>
+                    <div class="like">
+                        <a href="#" class="like-img"><img src="assets/images/thumbs-up.png" alt="Gostei" ></a>
+                        <p class="option-name">2 mil</p>
+                    </div>
+                    <div class="dislike">
+                        <a href="#" class="dislike-img"><img src="assets/images/thumbs-down.png" alt="Não gostei" ></a>
+                        <a href="#"><p class="option-name">Não gostei</p></a>
+                    </div>
+                    <div class="share">                            
+                        <a href="#" class="share-img"><img src="assets/images/share-2.png" alt="Compartilhar" ></a>
+                        <a href="#"><p class="option-name">Compartilhar</p></a>
+                    </div>
+                    <div class="download">
+                        <a href="#" class="download-img"><img src="assets/images/download.png" alt="Baixar" ></a>
+                        <a href="#"><p class="option-name">Download</p></a>
+                    </div>
+                </div>
+                <h2 class="video-data">28.418 visualisações - Transmitido ao vivo em 23 ago. de 2022</h2>
+                <p class="descrition">Inicie uma aventura imersiva no mundo do Front-end com HTML e CSS. Para isso, criaremos uma landing page com a temática da série Stranger Things, a qual contará com a implementação de um theme switcher (light e dark) para explorarmos os mistérios do mundo invertido.</p>
+            </main>
+            <aside class="recomended-bar">
+
+                <div class="recomended-video">
+                    <a href="#"><img src="assets/images/thumbs/Thumb.png" alt="" class="thumbmail"></a>
+                    <div class="video-info">
+                        <a href="#"><h2 class="video-name">Geração Tech Unimed - BH - Ciência de Dados</h2></a>
+                        <a href="#"><h3 class="channel-name">DigitalInnovationOne</h3></a>
+                        <h3 class="views-date">2,1 mil visualizações <br> Transmitido há 3 dias</h3>
+                    </div>
+                </div>
+
+                <div class="recomended-video">
+                    <a href="#"><img src="assets/images/thumbs/image 12.png" alt="" class="thumbmail"></a>
+                    <div class="video-info">
+                        <a href="#"><h2 class="video-name">Scrum Talks</h2></a>
+                        <a href="#"><h3 class="channel-name">DigitalInnovationOne</h3></a>
+                        <h3 class="views-date">1,6 mil visualisações <br> Transmitido há 3 dias</h3>
+                    </div>
+                </div>
+
+                <div class="recomended-video">
+                    <a href="#"><img src="assets/images/thumbs/image 13.png" alt="" class="thumbmail"></a>
+                    <div class="video-info">
+                        <a href="#"><h2 class="video-name">Machine Learning Avançado - Fast Track</h2></a>
+                        <a href="#"><h3 class="channel-name">DigitalInnovationOne</h3></a>
+                        <h3 class="views-date">1,7 mil visualisações <br> Transmitido há 4 dias</h3>
+                    </div>
+                </div>
+
+                <div class="recomended-video">
+                    <a href="#"><img src="assets/images/thumbs/image 14.png" alt="" class="thumbmail"></a>
+                    <div class="video-info">
+                        <a href="#"><h2 class="video-name">Global Skills #2 - Project Planning</h2></a>
+                        <a href="#"><h3 class="channel-name">DigitalInnovationOne</h3></a>
+                        <h3 class="views-date">971 visualisações <br> Transmitido há 5 display</h3>
+                    </div>
+                </div>
+
+                <div class="recomended-video">
+                    <a href="#"><img src="assets/images/thumbs/image 15.png" alt="" class="thumbmail"></a>
+                    <div class="video-info">
+                        <a href="#"><h2 class="video-name">Como aprender a programar Python do ZERO</h2></a>
+                        <a href="#"><h3 class="channel-name">DigitalInnovationOne</h3></a>
+                        <h3 class="views-date">711 visualisações <br> Transmitido há 6 dias</h3>
+                    </div>
+                </div>
+
+                <div class="recomended-video">
+                    <a href="#"><img src="assets/images/thumbs/Thumb.png" alt="" class="thumbmail"></a>
+                    <div class="video-info">
+                        <a href="#"><h2 class="video-name">Geração Tech Unimed - BH - Ciência de Dados</h2></a>
+                        <a href="#"><h3 class="channel-name">DigitalInnovationOne</h3></a>
+                        <h3 class="views-date">2,1 mil visualizações <br> Transmitido há 3 dias</h3>
+                    </div>
+                </div>
+
+                <div class="recomended-video">
+                    <a href="#"><img src="assets/images/thumbs/image 12.png" alt="" class="thumbmail"></a>
+                    <div class="video-info">
+                        <a href="#"><h2 class="video-name">Scrum Talks</h2></a>
+                        <a href="#"><h3 class="channel-name">DigitalInnovationOne</h3></a>
+                        <h3 class="views-date">1,6 mil visualisações <br> Transmitido há 3 dias</h3>
+                    </div>
+                </div>
+
+                <div class="recomended-video">
+                    <a href="#"><img src="assets/images/thumbs/image 13.png" alt="" class="thumbmail"></a>
+                    <div class="video-info">
+                        <a href="#"><h2 class="video-name">Machine Learning Avançado - Fast Track</h2></a>
+                        <a href="#"><h3 class="channel-name">DigitalInnovationOne</h3></a>
+                        <h3 class="views-date">1,7 mil visualisações <br> Transmitido há 4 dias</h3>
+                    </div>
+                </div>
+
+                <div class="recomended-video">
+                    <a href="#"><img src="assets/images/thumbs/image 14.png" alt="" class="thumbmail"></a>
+                    <div class="video-info">
+                        <a href="#"><h2 class="video-name">Global Skills #2 - Project Planning</h2></a>
+                        <a href="#"><h3 class="channel-name">DigitalInnovationOne</h3></a>
+                        <h3 class="views-date">971 visualisações <br> Transmitido há 5 display</h3>
+                    </div>
+                </div>
+
+            </aside>
+        </div>
+    </div>
+</body>
